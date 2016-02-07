@@ -9,6 +9,10 @@ h1 {
 #title {
   color: lightyellow; }
 
+#map {
+  width: 500px;
+  height: 400px; }
+
 .navbar-default {
   background-color: #333;
   border-color: #add8e6; }
