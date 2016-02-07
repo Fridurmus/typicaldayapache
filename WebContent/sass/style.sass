@@ -1,4 +1,6 @@
 // establish SASS variables
+$navBg: #5B8EAD
+$navHighlight: #EEEDE8
 $bgDefault: #333
 $bgHighlight : #add8e6
 $colDefault : #add8e6
@@ -20,13 +22,13 @@ h1
     height: 400px
 
 .navbar-default
-    background-color: $bgDefault
+    background-color: $navBg
     border-color: $bgHighlight
     .navbar-text
         font-size: 1.5em
         float: none
         display: inline-block
-        color: #f4f697
+        color: $navHighlight
         > a
             text-decoration: none
     .navbar-nav
@@ -39,5 +41,5 @@ h1
         > a
             color: $colDefault
             &:hover, &:focus 
-                color: $colHighlight
-                background-color: $bgHighlight
+                color: $navBg
+                background-color: $navHighlight
