@@ -2,10 +2,12 @@
     <head>
         <!-- include bootstrap, jquery, stylesheet reference links here -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-        <LINK href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     </head>
     <body>
+        <!-- make a custom navigation bar with bootstrap-->
         <div class="container-fluid" id="timeBtn">
             <div class="btn-group btn-group-justified" role="group">
                 <div class="btn-group" role="group">
@@ -22,9 +24,15 @@
                 </div>
             </div>
         </div>
+        <!-- Display the current time and location prominently -->
         <h1 id="title"></h1>
-        <div id="map"></div>
-        
+        <!-- Set up the divs for the actual data -->
+        <div class="container-fluid" id="dataView"> 
+            <div id="map" class="col-sm-3"></div>
+            <div id="descPlace" class="col-sm-6"></div>
+            <div id="tempPlace" class="col-sm-3"></div>
+        </div>
+        <!-- Roll Google Maps into the HTML properly -->
         <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
     <!-- include javascript reference links here -->
     <script src="js/index.js"></script>
