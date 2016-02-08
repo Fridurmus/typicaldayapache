@@ -11,16 +11,16 @@
         <div class="container-fluid" id="timeBtn">
             <div class="btn-group btn-group-justified" role="group">
                 <div class="btn-group" role="group">
-                    <input type="button" id="mornBtn" class="btn btn-default" onClick="pan(homeLatLng, mornTime)" />
+                    <input type="button" id="mornBtn" class="btn btn-default active" onClick="pan(homeLatLng, mornTime, mornDesc)" />
                 </div>
                 <div class="btn-group" role="group">
-                    <input type="button" id="phiBtn" class="btn btn-default"  onClick="pan(phiLatLng, phiTime)" />
+                    <input type="button" id="phiBtn" class="btn btn-default"  onClick="pan(phiLatLng, phiTime, phiDesc)" />
                 </div>
                 <div class="btn-group" role="group">
-                    <input type="button" id="freBtn" class="btn btn-default"  onClick="pan(freLatLng, freTime)" />
+                    <input type="button" id="freBtn" class="btn btn-default"  onClick="pan(freLatLng, freTime, freDesc)" />
                 </div>
                 <div class="btn-group" role="group">
-                    <input type="button" id="niteBtn" class="btn btn-default"  onClick="pan(homeLatLng, niteTime)" />
+                    <input type="button" id="niteBtn" class="btn btn-default"  onClick="pan(homeLatLng, niteTime, niteDesc)" />
                 </div>
             </div>
         </div>
@@ -29,7 +29,9 @@
         <!-- Set up the divs for the actual data -->
         <div class="container-fluid" id="dataView"> 
             <div id="map" class="col-sm-3"></div>
-            <div id="descPlace" class="col-sm-6"></div>
+            <div id="descPlace" class="col-sm-6">
+                <p id="descText"></p>
+            </div>
             <div id="tempPlace" class="col-sm-3"></div>
         </div>
         <!-- Roll Google Maps into the HTML properly -->
