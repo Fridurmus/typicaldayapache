@@ -36,7 +36,6 @@ h1 {
 }
 
 #weaPlace {
-	background-color: #333;
 	font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
 	color: lightyellow;
@@ -124,42 +123,3 @@ h1 {
 	background: linear-gradient(to right, #edb42f 0%, #194f7f 100%);
     border-color: #333;
 }
-
-.navbar-default {
-  background-color: #5B8EAD;
-  border-color: #add8e6; 
-  }
-  .navbar-default .navbar-text {
-    font-size: 1.5em;
-    float: none;
-    display: inline-block;
-    color: #EEEDE8; 
-    }
-    .navbar-default .navbar-text > a {
-      text-decoration: none; 
-      }
-  .navbar-default .btn-group {
-    width: 100%; 
-    }
-  .navbar-default .btn {
-    width: 100%; 
-    font-weight: bold;
-    color: #333;
-    font-size: 1.2em;
-    }
-  .navbar-default .navbar-nav {
-    width: 100%;
-    text-align: center; 
-    }
-    .navbar-default .navbar-nav > li {
-      font-size: 1.5em;
-      float: none;
-      display: inline-block; 
-      }
-    .navbar-default .navbar-nav > a {
-      color: #add8e6; 
-      }
-      .navbar-default .navbar-nav > a:hover, .navbar-default .navbar-nav > a:focus {
-        color: #5B8EAD;
-        background-color: #EEEDE8; 
-        }

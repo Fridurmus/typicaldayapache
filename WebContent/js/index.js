@@ -5,10 +5,14 @@ var homeLatLng = {lat: 28.121095, lng: -80.627447}; //home
 var phiLatLng = {lat: 28.1688249, lng: -80.667917}; //philosophy class
 var freLatLng = {lat: 28.1693049, lng: -80.6707692}; //french class
 var activeButton = "morn";
+
+//Define time and location data
 var mornTime = "<span class='glyphicon glyphicon-home'></span> <span class='titleLoc'>Home:</span> <span class='glyphicon glyphicon-time'></span> 00:00 - 14:45";
 var phiTime = "<span class='glyphicon glyphicon-education'></span> <span class='titleLoc'>Philosophy:</span> <span class='glyphicon glyphicon-time'></span> 15:15 - 16:30";
 var freTime = "<span class='glyphicon glyphicon-education'></span> <span class='titleLoc'>French I:</span> <span class='glyphicon glyphicon-time'></span> 18:00 - 20:45";
 var niteTime = "<span class='glyphicon glyphicon-bed'></span> <span class='titleLoc'>Home:</span> <span class='glyphicon glyphicon-time'></span> 21:00 - 23:59";
+
+//Write up descriptions
 var mornDesc = "I remember Tuesday, September 8 as being a great example of a typical day at Eastern Florida State College. My earliest class on Tuesday didn't meet until 3:15 PM, " +
 		"so the morning was spent at home studying, cleaning up, or relaxing. On that day in particular, I was relaxing after getting home from a weekend trip to Atlanta the day before.";
 var phiDesc = "The first Tuesday class was Introduction to Philosophy, taught by an energetic professor (we'll call him Jeff) over in Building 7 at the Melbourne EFSC campus. It was an interesting class, with good lectures and discussion, " +
