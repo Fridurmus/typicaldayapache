@@ -1,9 +1,10 @@
 <html>    
     <head>
-        <!-- include bootstrap, jquery, stylesheet reference links here -->
+        <!-- Bootstrap, jQuery, and various CSS reference links here -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         <link href="css/style.css" rel="stylesheet" type="text/css">
         <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     </head>
     <body>
@@ -32,7 +33,9 @@
             <div id="descPlace" class="col-sm-6">
                 <p id="descText"></p>
             </div>
-            <div id="tempPlace" class="col-sm-3"></div>
+            <div id="weaPlace" class="col-sm-3">
+                <p id="weaText"></p>
+            </div>
         </div>
         <!-- Roll Google Maps into the HTML properly -->
         <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>

@@ -8,6 +8,10 @@ h1 {
   font-weight: bold; 
 }
 
+.glyphicon {
+  color: #f24555;
+}
+
 #title {
   color: lightblue; 
   font-family: 'PT Sans', sans-serif;
@@ -22,16 +26,16 @@ h1 {
 }
 
 #descPlace {
-	background-color: rgba(255, 255, 255, 0.5);
-	color: #333;
+	font-size: 1.5em;
 	height: 400px;
 	border-left-style: solid;
 	border-right-style: solid;
-	border-color: #333; 
+	border-color: rgba(255, 255, 255, 0.1); 
 }
 
-#tempPlace {
+#weaPlace {
 	background-color: red;
+	color: #333;
 	height: 400px;
 }
 
